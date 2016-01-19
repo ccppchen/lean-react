@@ -4,7 +4,7 @@
 
 var HelloWorld = React.createClass({
 	getInitialState: function() {
-		return {message: 'Hello World!!'};
+		return {message: 'Hello World!!1111'};
 	},
 	goodbye: function(event) {
 		this.setState({message: 'Goodbye World.'});
