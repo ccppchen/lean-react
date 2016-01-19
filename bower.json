@@ -1,0 +1,10 @@
+{
+  "name": "reactlean",
+  "version": "0.0.0",
+  "main": "react.min.js",
+  "dependencies": {
+    "react": "0.13.1",
+    "jquery": "~2.2.0"
+  },
+  "devDependencies": {}
+}
