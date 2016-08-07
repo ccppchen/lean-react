@@ -172,6 +172,9 @@ module.exports = function (grunt) {
         // Empties folders to start fresh
         clean: {
             dist: {
+                options: {
+                    force: true
+                },
                 files: [{
                     dot: true,
                     src: [
@@ -380,7 +383,7 @@ module.exports = function (grunt) {
 
         grunt.task.run([
             'clean:server',
-            'react',
+            // 'react',
             'compass:dev',
             'concurrent:server',
             'bower-install:app',
@@ -404,7 +407,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', [
         'clean:dist',
-        'react',
+        // 'react',
         'useminPrepare',
         'compass:dev',
         'concurrent:dist',
